@@ -6,6 +6,9 @@ age=24
 
 echo "My Name is $name and age is $age";
 
+HOSTNAME = $(hostname)
+echo "Name of this machine is $HOSTNAME";
+
 git status
 git add .
 git commit -m "commit added"
