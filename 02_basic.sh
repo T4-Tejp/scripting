@@ -9,6 +9,14 @@ echo "My Name is $name and age is $age";
 HOSTNAME = $(hostname)
 echo "Name of this machine is $HOSTNAME";
 
+#constant variable or read_only
+
+readonly SYSTEM_BRAND = "dell";
+
+SYSTEM_BRAND = "apple";
+
+echo SYSTEM_BRAND
+
 git status
 git add .
 git commit -m "commit added"
